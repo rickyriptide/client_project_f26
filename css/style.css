@@ -10,6 +10,13 @@
     padding: 5px;
 }
 
+html, body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
 body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -121,7 +128,8 @@ ul li{
     grid-template-columns: 1fr 60%;
     background-color: #FFCB05;
     align-items: center;
-  
+    justify-items: center;
+    padding: 10px 0px;
     max-width: 100%;
 }
 
@@ -281,6 +289,11 @@ aside div a{
 aside div a:hover, aside div a:focus{
     background-color: #ffe371;
     border-color: #ffe371;
+}
+
+.p2-section{
+    line-height: normal;
+    padding: 10px;
 }
 
 
