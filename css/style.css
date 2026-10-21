@@ -270,7 +270,7 @@ aside h2, aside p, aside div{
 
 aside p a{
     color: #ffffff;
-    font-size: 0.85em;
+    font-size: 0.75em;
 }
 
 aside p{
@@ -405,6 +405,61 @@ aside div a:hover, aside div a:focus{
     padding: 10px;
     margin: 20px 10px;
     text-decoration: none;
+}
+
+.p3-section{
+    padding: 10px;
+    line-height: normal;
+}
+
+.p3-section img{
+    display: block;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.p3-section h3{
+    font-size: 1.3em;
+    padding-bottom: 0px;
+}
+
+.p3-section article{
+    padding: 10px;
+}
+
+.p3-section article:nth-child(even){
+    background-color:#00274C;
+    color: #ffffff;
+}
+
+.p3-section article:nth-child(odd){
+    background-color:#FFCB05;
+}
+
+.p3-section:last-child img{
+    margin-bottom: 10px;
+}
+
+.p3-section article:last-child{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 0px;
+}
+
+.p3-section article:last-child ul{
+    list-style: disc;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.p3-section article:last-child li{
+    padding-bottom: 10px;
+}
+
+.p3-section a{
+    padding: 0px;
+    color: #00274C;
 }
 
 
