@@ -293,6 +293,7 @@ aside div a:hover, aside div a:focus{
     border-color: #ffe371;
 }
 
+/* PAGE 2: PREP PAGE START */
 .p2-section{
     line-height: normal;
     padding: 10px;
@@ -325,6 +326,11 @@ aside div a:hover, aside div a:focus{
     padding: 10px;
     text-decoration: none;
     grid-column: 2/3;
+}
+
+.p2-section:first-child a:hover, .p2-section:first-child a:focus{
+    background-color: #3a5772;
+    border-color:#3a5772;
 }
 
 .p2-section:first-child a:first-child{
@@ -393,6 +399,10 @@ aside div a:hover, aside div a:focus{
     font-weight: bold;
 }
 
+#phase-1 .resources a:hover, #phase-1 .resources a:focus{
+    color:#0779e3;
+}
+
 .start{
     text-align: center;
 }
@@ -408,6 +418,12 @@ aside div a:hover, aside div a:focus{
     text-decoration: none;
 }
 
+.start a:hover, .start a:focus{
+    background-color: #3a5772;
+    border-color:#3a5772;
+}
+
+/* PAGE 3: START PAGE START */
 .p3-section{
     padding: 10px;
     line-height: normal;
@@ -462,6 +478,12 @@ aside div a:hover, aside div a:focus{
     padding: 0px;
     color: #00274C;
 }
+
+.p3-section a:hover, .p3-section a:focus{
+    color:#0779e3;
+}
+
+/* PAGE 4: FACULTY HUB START */
 
 #p4-top-pic{
     max-width: 90%;
@@ -527,6 +549,11 @@ td{
     padding: 10px;
     margin: 10px;
     text-decoration: none;
+}
+
+.p4-main .p3-section .submit-request a:hover, .p4-main .p3-section .submit-request a:focus{
+    background-color: #3a5772;
+    border-color:#3a5772;
 }
 
 .p4-main .p3-section:last-child a, i{
