@@ -297,6 +297,116 @@ aside div a:hover, aside div a:focus{
     padding: 10px;
 }
 
+.p2-section:first-child{
+    background-color: #FFCB05;
+    font-size: 1.35em;
+    display: grid;
+    grid-template-columns: 1fr 30%;
+    align-items: center;
+}
+
+.p2-section:first-child h2{
+    grid-column: 1/-1;
+    grid-row: 1/2;
+}
+
+.p2-section:first-child p{
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+
+.p2-section:first-child a{
+    display: inline-block;
+    background-color: #00274C;
+    color: #ffffff;
+    border: 2px solid #00274C;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    grid-column: 2/3;
+}
+
+.p2-section:first-child a:first-child{
+    grid-row: 2/3;
+}
+
+.p2-section:first-child a:last-child{
+    grid-row: 3/4;
+}
+
+.p2-section:nth-child(2) img{
+    margin: 10px;
+    max-width: 90%;
+    height: 200px;
+    object-fit: cover;
+}
+
+#phase-1{
+    background-color: #FFCB05;
+}
+
+#phase-1 h3{
+    font-size: 1.3em;
+}
+
+#phase-1 li{
+    padding-bottom: 10px;
+}
+
+#phase-1 img{
+    display: block;
+    margin: auto;
+    max-width: 90%;
+    align-self: center;
+}
+
+#phase-1 article{
+    background-color: #ffffff;
+}
+
+.questions h3{
+    padding-top: 20px;
+}
+
+#phase-1 ul, ol{
+    padding-left: 30px;
+    padding-right: 10px;
+    list-style: disc;
+}
+
+#phase-1 ol{
+    padding-bottom: 10px;
+}
+
+#phase-1 .prep-process h3{
+    padding-top: 0px;
+}
+
+#phase-1 .resources{
+    background-color: #FFCB05;
+}
+
+#phase-1 .resources a{
+    padding: 0px;
+    color: #00274C;
+    font-weight: bold;
+}
+
+.start{
+    text-align: center;
+}
+
+.start a{
+    display: inline-block;
+    background-color: #00274C;
+    color: #ffffff;
+    border: 2px solid #00274C;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 10px;
+    text-decoration: none;
+}
+
 
 footer{
     padding: 5px;
