@@ -118,6 +118,49 @@
        <a href="https://umsi.info/elo-newsletter"> Sign up for the ELO newsletter</a>
     </div>
     <p>Questions? Email <a href="mailto:umsi.engagement@umich.edu">umsi.engagement@umich.edu</a></p>
+
+    <form
+    action="https://formspree.io/f/xvkaoqvl"
+    method="POST"
+  >
+
+        <fieldset>
+            <legend>Contact Us</legend>
+
+            <label for="first-name">First Name:*</label>
+            <input type="text" id="first-name" name="first-name" required>
+
+            <label for="last-name">Last Name:*</label>
+            <input type="text" id="last-name" name="last-name" required>
+
+            <label for="email">Email Address:*</label>
+            <input type="text" id="email"
+                   name="email" required
+                   placeholder="youremail@umich.edu">
+
+            <label for="program">Academic Program:*</label>
+            <select id="program" name="program" required>
+                <option value="">Select your program</option>
+                <option value="bsi">BSI</option>
+                <option value="msi">MSI</option>
+                <option value="mhi">MHI</option>
+                <option value="phd">PhD</option>
+                <option value="other">Other</option>
+            </select>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Your Message</legend>
+
+            <label for="feedback">Your Message:*</label>
+            <textarea name="feedback" id="feedback" rows="5" required></textarea>
+
+        </fieldset>
+
+        <input type="submit" name="submit-feedback" value="Send Message" id="submit">
+
+        </form>
   </aside>
 
 
