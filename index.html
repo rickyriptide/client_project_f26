@@ -8,6 +8,7 @@
      <title>Engaged Learning Resources | UMSI</title>
 
 </head>
+
 <body>
 
     <header>
@@ -15,7 +16,7 @@
         <a href="index.html"><img class="logo" src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo"></a>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="prep.html">Preparing for Your Experience</a></li>
                 <li><a href="start.html">Starting Your Experience</a></li>
                 <li><a href="faculty.html">Faculty Hub</a></li>
@@ -104,6 +105,7 @@
       <h3><a href="https://www.si.umich.edu/student-life/study-abroad">Study Abroad</a></h3>
     </article>
    </section>
+   
   <section class="section5">
     <h2>About the Engaged Learning Office</h2>
     <p>The Engaged Learning Office works with partners across industries and sectors, from technology companies to grassroots nonprofits and cultural heritage institutions, to provide project-based opportunities for UMSI students.</p>
@@ -127,7 +129,10 @@
       <address>
         <a href="mailto:umsi.engagement@umich.edu">umsi.engagement@umich.edu</a>
       </address>
-      <p>&copy; 2026 Regents of the University of Michigan</p>
+      <p>&copy; <span id="year"></span> Regents of the University of Michigan</p>
+      <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+      </script>
     </footer>
 </body>
 </html>
