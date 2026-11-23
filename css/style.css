@@ -720,6 +720,9 @@ footer a{
         border-color: #FFCB05;
         color: #000000;
     }
+    .p2-section:first-child a:focus, .p2-section:first-child a:hover{
+    color: #ffeb99;
+}
     .p2-section:first-child h2{
         line-height: 150%;
     }
