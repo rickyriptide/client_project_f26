@@ -850,4 +850,27 @@ footer a{
     .p4-main h2{
         line-height: 140%;
     }
+
+    #error h1{
+        background: none;
+        font-size: 3em;
+        text-align: left;
+        padding: 20px;
+        padding-bottom: 0px;
+    }
+    #error p, #error a{
+        padding: 20px;
+        font-size: 1.2em;
+    }
+    #error a{
+        display: inline-block;
+        margin-left: 20px;
+        color: #ffffff;
+        border: 2px solid #00274C;
+        background-color:#00274C;
+        border-radius: 10px;
+    }
+    #error a:hover, #error a:focus{
+        color:#FFCB05;
+    }
 }
